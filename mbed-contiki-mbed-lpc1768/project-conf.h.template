@@ -1,0 +1,27 @@
+
+#ifndef PROJECT_CONF_H_
+#define PROJECT_CONF_H_
+#include "project-conf.h" 
+#undef ARDUINO 
+#define UIP_CONF_EUI64  1 //0 means use ds2411 
+#define LOWPOWER 0 
+#define EUI64_ADDRESS {0x02, 0, 0, 0, 0, 0, 0, 0xbb}; 
+#define RFCHANNEL 26 
+//Belows is been defined  in Makefile auto
+//#define AUTOSTART_ENABLE 1 
+//#define UIP_CONF_IPV6 1 
+//#define RF230BB 1 
+//#define WATCHDOG_CONF_TIMEOUT WDTO_8S 
+//#define AUTO_CRC_PADDING 2 
+//#define HAVE_STDINT_H 
+
+//  Auto Added by "SMeshLink SMeshStudio""
+
+
+
+
+//add your function definitions for the project ch here
+
+
+
+#endif /* __PROJECT_CONF_H__ */
